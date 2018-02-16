@@ -1,0 +1,24 @@
+{
+  "name": "conversion-bot",
+  "description": "BOT de emisión de certificados Libertario para donaciones cripto (BTC y más)",
+  "author": "Desarrollo P-LIB",
+  "version": "0.0.1",
+  "main": "start.js",
+  "keywords": [
+    "bot",
+    "headless",
+    "byteball"
+  ],
+  "license": "Apache License 2.0",
+  "repository": {
+    "url": "git://github.com/dmmartinez/plib/conversionbot.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmmartinez/plib/issues"
+  },
+  "dependencies": {
+    "headless-byteball": "git+https://github.com/byteball/headless-byteball.git",
+    "byteballcore": "git+https://github.com/byteball/byteballcore.git"
+  }
+}
